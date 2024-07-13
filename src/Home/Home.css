@@ -1,0 +1,17 @@
+/* Home.css */
+
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-menu {/* Due elementi per riga con gap */
+    height: 300px;
+    width: 300px;
+    background-color: #f7f4f4;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin: auto;
+}
