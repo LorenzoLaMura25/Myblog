@@ -1,17 +1,30 @@
-/* Home.css */
 
-.container-home {
-    display: flex;
+.container-home{
+    display:grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(2,300px);
+    gap: 10px;
     justify-content: center;
-    align-items: center;
+    padding: 50px;
+    
 }
 
-.container-menu {/* Due elementi per riga con gap */
-    height: 300px;
-    width: 300px;
-    background-color: #f7f4f4;
+.container-menu{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid red;
     border-radius: 10px;
-    border: none;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+    
+}
+
+.container-menu:hover {
+    transform: scale(1.05); /* Ingrandisce leggermente il div */
+    background-color: gold; /* Cambia leggermente il colore di sfondo */
+    
 }

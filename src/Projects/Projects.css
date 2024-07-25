@@ -1,0 +1,11 @@
+
+.la-bruschetta h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.la-bruschetta{
+    justify-content: center;
+    text-align: center;
+}

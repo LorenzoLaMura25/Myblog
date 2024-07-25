@@ -1,0 +1,10 @@
+
+
+.resumee-container{
+    display: flex;
+}
+.resumee{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

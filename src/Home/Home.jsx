@@ -20,7 +20,7 @@ const Home = () => {
   }
   return (
     <>
-    <h1>Home</h1>
+    
 
     <div className="container-home">
       <div className="container-menu" onClick={AboutClick}>
@@ -38,6 +38,10 @@ const Home = () => {
       <div className="container-menu" onClick={ResumeeClick}>
       <h1>Resumee</h1>
       </div>
+
+      
+
+      
     </div>
     
     </>
